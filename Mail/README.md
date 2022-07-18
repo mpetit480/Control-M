@@ -1,24 +1,35 @@
 # Control-M Python Mail plugin
-Version 1.0
+## Changes on this version
 
-### Short description:
+| Date | Who | What |
+| - | - | - |
+| 2022-07-18 | Mathieu Petit | First release |
+
+
+## Contributions
+
+| Date | Who | What |
+| - | - | - |
+
+
+## Short description:
 Control-M Integration plugin for MAPI mailbox
 
-#### Pre requisites
+## Prerequisites
 
-Control-M Version 9.20.000,
-Control-M Application pack 9.20
-Python 3
+- Control-M Version 9.20.000,
+- Control-M Application pack 9.20
+- Python 3
 
 
-### Installation
+## Installation
 
-- Deploy the integration using Application Integrator and copy the Python script at Agent side.
-- Install imap_tools library: pip install imap_tools
+- Deploy the integration AI Mail Python.ctmai using Application Integrator.
+- Install imap_tools library: pip install imap_tools.
 - Copy the script imap_d.py on the agent.
 
  
-### Detailed description:
+## Detailed description:
 
 The script detects mail arrivals in a mailbox depending on criteria.
 2 options:
@@ -26,7 +37,7 @@ The script detects mail arrivals in a mailbox depending on criteria.
 -	With a loop and a job to trigger, it will wait and start itself a job.
  
 
-### Control-M
+## Control-M
 
 * #### 1. Connection Profile 
 
