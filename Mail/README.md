@@ -11,7 +11,7 @@ Control-M Application pack 9.20
 Python 3
 
 
-#### Installation
+### Installation
 
 - Deploy the integration using Application Integrator and copy the Python script at Agent side.
 - Install imap_tools library: pip install imap_tools
@@ -26,7 +26,7 @@ The script detects mail arrivals in a mailbox depending on criteria.
 -	With a loop and a job to trigger, it will wait and start itself a job.
  
 
-#### Features
+### Control-M
 
 * #### 1. Connection Profile 
 
