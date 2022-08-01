@@ -40,8 +40,8 @@ or
  - Tenant ID
  - Application ID
  - Client Secret
- - REST Login URL: ** login.microsoftonline.com **
- - Management URL: ** management.azure.com **
+ - REST Login URL: **login.microsoftonline.com**
+ - Management URL: **management.azure.com**
  
  ###### In Job definition
  - Azure resource group name
