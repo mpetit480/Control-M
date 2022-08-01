@@ -52,16 +52,9 @@ or
 
 * #### 1. Connection Profile 
 
-It is a Basic authentication.
-Specify user:passwd  or user:token encoded in base64.
-
 ![](./images/connprof.png)
 
 * #### 2. Define a job
-
-Paramters are optional. The format is:
-
-PARAM1=value&PARAM2=value&PARAM3=value
 
 ![](./images/job.png)
 
