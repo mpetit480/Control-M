@@ -4,6 +4,7 @@
 | Date | Who | What |
 | - | - | - |
 | 2022-07-18 | Mathieu Petit | First release |
+| 2022-10-04 | Mathieu Petit | Add a Text Box with Load Button to display the list of Jenkins jobs |
 
 
 ## Contributions
