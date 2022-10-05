@@ -4,6 +4,7 @@
 | Date | Who | What |
 | - | - | - |
 | 2022-07-18 | Mathieu Petit | First release |
+| 2022-10-05 | Mathieu Petit | Add Manual abort operation step, add Text box with load button to display Templates and Inventories |
 
 
 ## Contributions
