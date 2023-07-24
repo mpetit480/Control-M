@@ -6,6 +6,12 @@ on:
       tempo:
         description: 'tempo'
         required: true
+      environement:
+        description: 'env'
+        required: true
+      version:
+        description: 'version'
+        required: true
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
