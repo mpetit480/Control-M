@@ -1,0 +1,17 @@
+[Unit]
+Description=Control-M Server
+Documentation=https://documents.bmc.com/supportu/9.0.20/help/Main_help/en-US/index.htm#86047.htm
+After=systemd-user-sessions.service multi-user.target network.target
+Requires=postgresql-15.service
+
+
+[Service]
+ExecStart=/usr/bin/su - emuser -c "/opt/emuser/ctm_server/scripts/start_ca ; /opt/emuser/ctm_server/scripts/start_ctm"
+Type=forking
+RemainAfterExit=yes
+ExecStop=/usr/bin/su - emuser -c  "/opt/emuser/ctm_server/scripts/shut_ca ; /opt/emuser/ctm_server/scripts/shut_ctm -CA"
+
+[Install]
+WantedBy=multi-user.target
+Alias=ctmsrv
+

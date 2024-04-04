@@ -1,0 +1,17 @@
+[Unit]
+Description=Control-M Enterprise Manager
+Documentation=https://documents.bmc.com/supportu/9.0.20/help/Main_help/en-US/index.htm#86748.htm
+After=systemd-user-sessions.service multi-user.target network.target
+Requires=postgresql-15.service
+
+[Service]
+User=emuser
+Group=emuser
+ExecStart=/bin/csh -c  "start_server ; start_config_agent ; /opt/emuser/ctm_em/bin/em sca set-desired-state --all up"
+Type=forking
+RemainAfterExit=yes
+ExecStop=/bin/csh  -c "/opt/emuser/bin/em ctl -mcs -C Config_Agent -all -cmd shutdown ; /opt/emuser/ctm_em/bin/em emsca shutdown -f ; stop_server"
+
+[Install]
+WantedBy=multi-user.target
+Alias=ctmem

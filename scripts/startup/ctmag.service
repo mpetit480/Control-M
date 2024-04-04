@@ -1,0 +1,10 @@
+[Unit]
+Description=Control-M-Agent
+After=network.target
+[Service]
+Type=forking
+ExecStart=/opt/emuser/ctm_agent/ctm/scripts/rc.agent_user start
+ExecStop=/opt/emuser/ctm_agent/ctm/scripts/rc.agent_user stop
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target
