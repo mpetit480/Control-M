@@ -48,6 +48,7 @@ Python path.
 * #### 2. Define a job
 
 Select options: 
+- Machine boot to monitor
 - TCP ports to listen.
 - Wait "Down" Yes/No
 - Wait "Up"   Yes/No
