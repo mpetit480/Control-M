@@ -39,13 +39,13 @@ The job has these functionnalities
 
 ## Control-M
 
-* #### 1. Connection Profile 
+#### 1. Connection Profile 
 
 Python path.
 
 ![](./images/cp.png)
 
-* #### 2. Define a job
+#### 2. Define a job
 
 Select options: 
 - Machine boot to monitor
