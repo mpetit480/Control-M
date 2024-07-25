@@ -19,6 +19,10 @@ Control-M Integration plugin to:
 - Copy file from Local to pod
 - Copy file from pod to local
 
+Example of Workflow
+
+![](./images/workflow.png)
+
 ## Prerequisites
 - Control-M Version 9.0.21.000,
 - A Control-M Agent 9.0.21 with kubectl configured with K8S context.
