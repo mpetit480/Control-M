@@ -50,7 +50,7 @@ RunAs and kubectl path
 ![](./images/cp.png)
 
 #### 2. Define a job
-
+In the Deployment tags field, specify the metadata tags.
 Type of Actions
 
 |       Exec in pod      | Copy from local to pod | Copy from pod to local |
