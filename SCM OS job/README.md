@@ -15,7 +15,7 @@
 
 ## Short description:
 Control-M Integration plugin to:
-- Run a script from a http(s) Source code management 
+- Run a script from a http(s) Source code management or http(s) artifact repository.
 
 It supports:
 - Unix shell, Linux bash
