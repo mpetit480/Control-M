@@ -61,7 +61,7 @@ The job has these functionnalities
 
 Path of interpreters and SCM 
 
-|       Windows          | Linux                  | 
+|            |                | 
 |:----------------------:|:----------------------:|
 | ![](./images/cp1.png)  | ![](./images/cp2.png)  |
 
