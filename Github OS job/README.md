@@ -1,4 +1,4 @@
-## Control-M Kubernetes pod exec/copy plugin
+## Control-M Github OS job 
 ## Changes on this version
 
 | Date | Who | What |
