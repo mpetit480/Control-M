@@ -62,6 +62,6 @@ Path of interpreters
 In the Deployment tags field, specify the metadata tags.
 Type of Actions
 
-|       Python Linux      | Powershell Windows    | Copy from pod to local |
-|:----------------------:|:----------------------:|:-----------------------|
-| ![](./images/job1.png) | ![](./images/job2.png) | ![](./images/job2.png) |
+|       Python Linux      | Powershell Windows    | 
+|:----------------------:|:----------------------:|
+| ![](./images/job1.png) | ![](./images/job2.png) | 
