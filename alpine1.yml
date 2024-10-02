@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: alpine-sleep
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      containers:
+      - name: alpine1
+        image: alpine:latest
+        command: ["/bin/sh", "-c", "sleep 14"]
+      restartPolicy: Never
