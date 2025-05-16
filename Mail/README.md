@@ -4,6 +4,7 @@
 | Date | Who | What |
 | - | - | - |
 | 2022-07-18 | Mathieu Petit | First release |
+| 2025-05-16 | Mathieu Petit | Python is now embedded in job type |
 
 
 ## Contributions
