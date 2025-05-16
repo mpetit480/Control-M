@@ -25,17 +25,17 @@ Control-M Integration plugin for MAPI mailbox
 
 ## Installation
 
-- Deploy the integration AI Mail Python.ctmai using Application Integrator.
+- Deploy the integration AIMAILPYTH.ctmai using Application Integrator.
 - Install imap_tools library: pip install imap_tools.
-- Copy the script imap_d.py on the agent.
 
  
 ## Detailed description:
 
 The script detects mail arrivals in a mailbox depending on criteria.
-2 options:
--	Without loop, on Ended OK, it will start another job following conditions
--	With a loop and a job to trigger, it will wait and start itself a job.
+Options:
+-	Break: it stops if a mail is found
+-	Save attachments to folder
+-	Trigger a Control-M Folder/job
  
 
 ## Control-M
