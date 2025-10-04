@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{job_yaml_file_params:jobname}}
+spec:
+  template:
+    spec:
+      containers:
+      - name: hello-world
+        image: busybox
+        command:
+          - "sh"
+          - "-c"
+          - "ls -l /; sleep {{job_yaml_file_params:tempo}}; date"
+      restartPolicy: Never
