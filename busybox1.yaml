@@ -11,5 +11,5 @@ spec:
         command:
           - "sh"
           - "-c"
-          - "ls -l /; sleep {{job_yaml_file_params:tempo}}; date"
+          - "ls -l /; sleep {{job_yaml_file_params:tempo}};  echo {{job_yaml_file_params:message}};date"
       restartPolicy: Never
